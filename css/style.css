@@ -1,40 +1,50 @@
 *{
     margin:0;
     padding:0;
+    overflow-y: hidden;
 }
 
-.white{
-    background-color: white;
-    margin: 100px;
-    padding: 60px;
-}
-
-.title{
-    text-align: center;
-    text-decoration-style: none;
-    color: black;
-}
-
-.title:hover{
-    color: skyblue;
-}
-
-.pasopatiTitle{
-    background-image:url("../images/nightpasopati.jpg");
-        min-height: 400px;
-        background-attachment: fixed;
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin:-20px;
-}
-
-#bandung{
+/* Bottom left text */
+.bottom-left {
     position: absolute;
-    left: 0;
-    top: 35%;
-    width: 100%;
-    text-align: center;
-    font-size: 400%;
-    color: white;
-    
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#myCarousel{
+    min-height: 100%;
+    margin:0;
+    padding:0;
+}
+
+.imageSlider{
+
 }
