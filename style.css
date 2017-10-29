@@ -1,0 +1,36 @@
+
+
+.white{
+    background-color: white;
+    margin: 100px;
+    padding: 60px;
+}
+
+.title{
+    text-align: center;
+    text-decoration-style: none;
+    color: black;
+}
+
+.title:hover{
+    color: skyblue;
+}
+
+.pasopatiTitle{
+    background-image:url("nightpasopati.jpg");
+        min-height:400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top: 220px;
+        margin: 0;
+
+}
+
+#bandung{
+    text-align: center;
+   
+    color: white;
+    font-size: 100px;
+}
