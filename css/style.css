@@ -1,4 +1,7 @@
-
+*{
+    margin:0;
+    padding:0;
+}
 
 .white{
     background-color: white;
@@ -18,19 +21,20 @@
 
 .pasopatiTitle{
     background-image:url("../images/nightpasopati.jpg");
-        min-height:400px;
+        min-height: 400px;
         background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
         background-size: contain;
-        padding-top: 220px;
-        margin: 0;
-
+        background-repeat: no-repeat;
+        margin:-20px;
 }
 
 #bandung{
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 100%;
     text-align: center;
-   
+    font-size: 400%;
     color: white;
-    font-size: 100px;
+    
 }
