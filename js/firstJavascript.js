@@ -21,6 +21,6 @@ function cat(color, age){
 
 wawoosh= new cat("white", 10);
 wawoosh.tambahUmur();
-console.log(wawoosh.age);
+console.log(wawoosh);
 console.log(x.length);
 console.log(x);
