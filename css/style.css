@@ -60,7 +60,7 @@ footer .glyphicon {
 .vision{
     background-color: green;
     color: white;
-    height: 310px;
+    
     padding-top:75px;
     padding-bottom: 0;
 }
@@ -68,7 +68,7 @@ footer .glyphicon {
 .mission{
     background-color: green;
     color: white;
-    height: 310px;
+    
     padding-top:10px;
     padding-bottom: 0;
 }
