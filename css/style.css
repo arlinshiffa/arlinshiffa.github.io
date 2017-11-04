@@ -8,6 +8,11 @@ body {
     line-height: 1.8;   
 }
 
+@font-face{
+    font-family: "something";
+    src: url("../fonts/Remained Black.ttf");
+}
+
 .navbar {
     margin-bottom: 0;
     background-color:black;
@@ -50,12 +55,20 @@ footer .glyphicon {
 #parallaxdusbam{
     padding-top:75px;
     background-image:url(../images/dusunbambutag.jpg);
-    min-height: 500px;
+    min-height: 600px;
 }
 
 .about{
     background-color: green;
     color: white;
+    height: 300px;
+}
+
+.vision{
+    font-family: "something";
+    font-size: 80px;
+    padding-top:80px;
+    padding-left: 80px;
     
 }
 
