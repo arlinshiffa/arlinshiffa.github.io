@@ -1,50 +1,29 @@
 *{
     margin:0;
     padding:0;
-    overflow-y: hidden;
 }
 
-/* Bottom left text */
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    
 }
 
-/* Top left text */
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
+.navbar {
+    margin-bottom: 0;
+    background-color:black;
+    height: 75px;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
 }
 
-/* Top right text */
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
+#myNavbar.li{
+    color: black;
 }
 
-/* Bottom right text */
-.bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#myCarousel{
-    min-height: 100%;
-    margin:0;
-    padding:0;
-}
-
-.imageSlider{
-
-}
