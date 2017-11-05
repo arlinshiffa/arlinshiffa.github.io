@@ -1,0 +1,22 @@
+<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"> </script> 
+<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase-firestore.js"></script> 
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"> 
+    firebase.initializeApp({ 
+        apiKey:"AIzaSyANCoAD2_HtusCpHlN6c4FTKh0BRZL-nFw", 
+        authDomain : "arlinshiffaproject.firebaseapp.com", 
+        projectId :"arlinshiffaproject" 
+    }); 
+ 
+    const db=firebase.firestore(); 
+    db.collection('user').add({ 
+        name: 'Arlin', 
+        slug: 'arlinshiffa' 
+    }); 
+ 
+    db.collection('user').get().then(querry=>{ 
+        querry.forEach(data =>{ 
+            $('body').append(data.id); 
+        }); 
+    }); 
+</script>
