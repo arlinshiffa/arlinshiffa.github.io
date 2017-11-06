@@ -95,5 +95,12 @@ footer .glyphicon {
     border: darkgreen 2px;
 }
 
+#contact{
+    background-attachment:url(../images/backgroundContact.jpg);
+    color: white;
+    padding: 40px;
+    size: 20px;
+}
+
 
 

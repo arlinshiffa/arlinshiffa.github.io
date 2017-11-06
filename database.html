@@ -3,9 +3,9 @@
  
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"> 
     firebase.initializeApp({ 
-        apiKey:"AIzaSyANCoAD2_HtusCpHlN6c4FTKh0BRZL-nFw", 
-        authDomain : "arlinshiffaproject.firebaseapp.com", 
-        projectId :"arlinshiffaproject" 
+        apiKey: "AIzaSyDlMFGGEzby-5ztQR_Xa7YDGPd8dJcgdNQ",
+        authDomain: "arlinprojects.firebaseapp.com",
+        projectId :"arlinprojects" 
     }); 
  
     const db=firebase.firestore(); 
@@ -14,9 +14,5 @@
         slug: 'arlinshiffa' 
     }); 
  
-    db.collection('user').get().then(querry=>{ 
-        querry.forEach(data =>{ 
-            $('body').append(data.id); 
-        }); 
-    }); 
+   
 </script>
